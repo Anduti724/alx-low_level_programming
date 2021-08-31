@@ -4,8 +4,10 @@
 */
 void print_alphabet(void)
 {
-char letter;
-for (letter = 'a'; letter <= 'z'; letter++)
-_putchar(letter);
+int i;
+for (i = 97; i < 123; i++)
+{
+_putchar(i);
+}
 _putchar('\n');
 }
