@@ -1,13 +1,13 @@
 #include "holberton.h"
 /**
-* main - Prints "Holberton" followed by a new line.
+* main - Prints "_putchar" followed by a new line.
 *
 * Return: Always 0.
 */
 int main(void)
 {
 int i;
-char p[] = "Holberton";
+char p[] = "_putchar";
 for (i = 0; i < 9; i++)
 {
 _putchar(p[i]);
