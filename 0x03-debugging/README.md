@@ -1,0 +1,1 @@
+this is read me function for debuging of c programmig
