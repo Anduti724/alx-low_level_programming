@@ -7,11 +7,11 @@
  **/
 int sqtRecursive(int n, int m)
 {
-  if (n <= 0)
-    return (-1);
-  if (n * n == m)
-    return (n);
-  return (sqtRecursive(n - 1, m));
+if (n <= 0)
+return (-1);
+if (n * n == m)
+return (n);
+return (sqtRecursive(n - 1, m));
 }
 /**
  * _sqrt_recursion - finds the natural square root of a number
@@ -20,9 +20,9 @@ int sqtRecursive(int n, int m)
  **/
 int _sqrt_recursion(int n)
 {
-  if (n == 1)
-    return (1);
-  return (sqtRecursive(n / 2, n));
+if (n == 1)
+return (1);
+return (sqtRecursive(n / 2, n));
 }
 /**
  * is_prime_number - checks if a given number is prime
@@ -31,9 +31,9 @@ int _sqrt_recursion(int n)
  **/
 int is_prime_number(int n)
 {
-  if (n <= 1 || _sqrt_recursion(n) >= 1)
-    return (0);
-  if (_sqrt_recursion(n) == -1)
-    return (1);
-  return (_sqrt_recursion(n));
+if (n <= 1 || _sqrt_recursion(n) >= 1)
+return (0);
+if (_sqrt_recursion(n) == -1)
+return (1);
+return (_sqrt_recursion(n));
 }
